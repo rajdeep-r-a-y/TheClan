@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95058819301",
+    "project_id": "sociquipo",
+    "storage_bucket": "sociquipo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95058819301:android:fbd4a0b283bbd2c9df7c0c",
+        "android_client_info": {
+          "package_name": "com.example.sociquipo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95058819301-8lqt9107fne24j4gpu0d0t6n5skfa31a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc_LWEU9dlTLyIgNwlT3ZP3_abB7D3phU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95058819301-8lqt9107fne24j4gpu0d0t6n5skfa31a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
