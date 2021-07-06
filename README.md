@@ -39,6 +39,10 @@ This is a youtube link of the demo of this application.
 ## Deployment
 
 To deploy this application, simply install the apk of this application on your "Android" phone and log in using your Google account.
+This is the google drive link of the apk:
+```http
+https://drive.google.com/file/d/10nVyoIDnoZp9UWtw2WwnXU2gs2yck_HT/view?usp=sharing
+```
 
 
 
