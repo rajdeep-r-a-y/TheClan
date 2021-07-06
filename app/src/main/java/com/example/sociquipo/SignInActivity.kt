@@ -23,11 +23,11 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 
-class SignInActivity : AppCompatActivity() {
+open class SignInActivity : AppCompatActivity() {
 
-    private lateinit var googleSignInClient: GoogleSignInClient
-    private lateinit var auth:FirebaseAuth
-    private val RC_SIGN_IN: Int = 123
+    lateinit var googleSignInClient: GoogleSignInClient
+    lateinit var auth:FirebaseAuth
+    val RC_SIGN_IN: Int = 123
     private val TAG = "SignInActivity Tag"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +45,7 @@ class SignInActivity : AppCompatActivity() {
         signInButton.setOnClickListener() {
             signIn()
         }
+
     }
 
     private fun signIn() {
